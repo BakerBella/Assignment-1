@@ -1,0 +1,41 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "BakerBella",
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 2,
+      "UserName": "12345678",
+      "SecurityLevel": 0
+    },
+    {
+      "Id": 3,
+      "UserName": "MarcusKVS",
+      "SecurityLevel": 1
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 1,
+        "UserName": "BakerBella",
+        "SecurityLevel": 0
+      },
+      "Title": "DNP Assignment 1",
+      "Body": "Forum"
+    },
+    {
+      "Id": 2,
+      "Owner": {
+        "Id": 1,
+        "UserName": "BakerBella",
+        "SecurityLevel": 0
+      },
+      "Title": "DNP Assignment 1",
+      "Body": "This assignment is about creating a website that can host forums, similar to Reddit. This part of the assignment showcases parts 1a \u002B 1b which includes creating a Web API and then the Blazor to run this."
+    }
+  ]
+}
